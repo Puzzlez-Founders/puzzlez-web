@@ -29,11 +29,11 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Employee Details</h1>
-      <EmployeeForm onSubmit={handleSubmit} />
-      <EmployeeGrid employees={employees} />
-    </div>
+      <div>
+        <h1>Employee Details</h1>
+        <EmployeeForm onSubmit={handleSubmit} />
+        <EmployeeGrid employees={employees} />
+      </div>
   );
 };
 
